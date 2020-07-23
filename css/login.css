@@ -1,0 +1,25 @@
+@charset "utf-8";
+@import "reset.css";
+@import "common.css";
+
+#login_section { padding:250px 0 100px ; text-align: center;}
+#login_section h2 { font-size:38px;
+    color: #222; padding-bottom: 50px;}
+
+#login_section .login_content .idpw_box { display:block; margin: 10px 0;}
+#login_section .login_content .idpw_box input {width: 450px; height: 54px; 
+    border: none; padding: 12px 16px;
+    border-radius: 4px; background: #eee; 
+    box-shadow: none; margin: 10px 0;}
+#login_section .login_content button {width: 450px; height: 54px; border: none; 
+    font-size: 16px; padding: 14px 24px;
+    border-radius: 4px; background: #3e78ff; color: #fff;
+    font-weight: bold;}
+
+#login_section .login_content .check { padding-top: 50px; text-align: center; font-size: 15px;
+    color: #555;}
+
+#login_section .login_content .check a:before {content: '|'; 
+    top: 50%; left: 0; transform: translateY(-50%);
+    font-size: 15px; padding-right: 10px;}
+#login_section .login_content .check a:first-child:before{display: none;}
