@@ -11,9 +11,21 @@
     
     <div id="header">
         <div class="topmenu row">
-            <a href="#">Home</a>  <!--a태그는 인라인성격이라 한줄로표기됨-->
-            <a href="#">Contact</a>
-            <a href="#">login</a>
+            <div class="search_box"> <!-- 검색박스-->
+                <form action="#" method="post"> <!-- #:검색될 주소.-->
+                    <fieldset>
+                        <legend>검색</legend>
+                        <input type="text" placeholder="검색어입력">
+                        <button type="submit">
+                            <span class="blind">검색</span>
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+            <a href="index.html">Home</a>  <!--a태그는 인라인성격이라 한줄로표기됨-->
+            <a href="contact.html">Contact</a>
+            <a href="login.html">login</a>
         </div> 
         <div class="h1NavWrap">
             <div class="h1Nav row">
