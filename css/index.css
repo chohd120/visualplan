@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "reset.css";
 @import "common.css";
+@import "rwdcommon.css";
 
 #header { position: fixed; width: 100%; /*position특성은 컨텐츠 넓이로 바뀜. width 줘야 부모와 같은 넓이*/
     background: #fff; box-shadow: 0 5px 20px rgba(0,0,0,0.1) ;

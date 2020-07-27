@@ -1,6 +1,7 @@
 @charset "utf-8";
 @import "reset.css";
 @import "common.css";
+@import "rwdcommon.css";
 
 #login_section { padding:250px 0 100px ; text-align: center;}
 #login_section h2 { font-size:38px;
