@@ -143,24 +143,21 @@ color: rgba(255, 255, 255, 0.65);}
 .business .overlay {position: absolute; 
     top: 0; left: 0; right: 0; bottom: 0;
     background: rgba(0, 0, 0, 0.4);}
-.business .row {position: relative;}
-.business .text {position: absolute; top: 0; left: 0; bottom: 0;
-    font-size: 43px; font-family: '나눔고딕';
-    color: rgba(255, 255, 255, 0.9);
-    position: absolute; top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    }
-.business h1 {font-weight: bold; margin: 111px 0 18px;
-    padding: 0 15px 15px;
-    border-bottom: 1px solid #dedede;
-    display: inline-block;
-    vertical-align: top;
-    }
-.business p {font-size: 17px; display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    }
+/* .business .row {position: relative;} */
+.business .text { position:absolute; top:50%; left:50%; 
+    transform:translate(-50%, -50%); text-align:center;
+    color:#fff; }
+.business .text h2 { font-size:43px; padding-bottom:15px;
+    position:relative; 
+    /* 선의 길이가 글상자 길이보다 크거나 같았을때 푸는 방식 */
+     border-bottom:1px solid #fff; 
+     padding-left:30px; padding-right:30px;  }   
+    /* 선의 길이가 글상자 길이보다 작았을 때 푸는 방식 */
+/* .business .text h2:after {
+    content:''; width:100px; height:1px; background:#fff;
+    position:absolute; top:100%; left:50%; 
+    transform:translateX(-50%) }  */
+.business .text p { font-size:17px; margin-top:15px } 
 
 .cscenter {padding: 70px 0;}
 .cscenter > div { float:left ;}
